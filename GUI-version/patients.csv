@@ -1,0 +1,36 @@
+id,name,age,gender,disease,doctor,status
+1,Rajesh Kumar,45,M,Hypertension,Dr. Singh,Admitted
+2,Priya Sharma,32,F,Diabetes,Dr. Patel,Admitted
+3,Amit Verma,58,M,Heart Disease,Dr. Gupta,Discharged
+4,Sneha Das,27,F,Migraine,Dr. Nair,Admitted
+5,Vikram Singh,50,M,Asthma,Dr. Biswas,Admitted
+6,Ananya Mishra,35,F,Thyroid,Dr. Singh,Admitted
+7,Rohit Joshi,42,M,Kidney Stone,Dr. Patel,Discharged
+8,Neha Kapoor,28,F,Depression,Dr. Kumar,Admitted
+9,Suresh Gupta,65,M,Arthritis,Dr. Reddy,Admitted
+10,Divya Iyer,31,F,Asthma,Dr. Nair,Discharged
+11,Kunal Bhat,48,M,High Cholesterol,Dr. Gupta,Admitted
+12,Riya Desai,25,F,Anxiety,Dr. Singh,Admitted
+13,Arjun Nair,52,M,Diabetes,Dr. Patel,Admitted
+14,Pooja Sinha,38,F,PCOS,Dr. Kumar,Admitted
+15,Sanjay Mehta,55,M,Hypertension,Dr. Reddy,Discharged
+16,Isha Chandra,29,F,Gastritis,Dr. Singh,Admitted
+17,Manoj Rao,47,M,Liver Disease,Dr. Patel,Admitted
+18,Gitika Verma,33,F,Anemia,Dr. Gupta,Discharged
+19,Harish Tyagi,60,M,Parkinson's,Dr. Kumar,Admitted
+20,Kavya Nambiar,26,F,Urinary Infection,Dr. Nair,Admitted
+21,Naveen Patel,51,M,Prostate,Dr. Reddy,Admitted
+22,Sandhya Rao,36,F,Hypertension,Dr. Singh,Admitted
+23,Prakash Singh,44,M,Bronchitis,Dr. Patel,Discharged
+24,Deepika Malhotra,30,F,Back Pain,Dr. Gupta,Admitted
+25,Sameer Khan,53,M,Heart Disease,Dr. Kumar,Admitted
+26,Anjali Verma,27,F,Skin Allergy,Dr. Nair,Discharged
+27,Varun Joshi,46,M,Pneumonia,Dr. Reddy,Admitted
+28,Shreya Das,34,F,Migraine,Dr. Singh,Admitted
+29,Arun Khurana,59,M,Diabetes,Dr. Patel,Admitted
+30,Megha Sharma,28,F,Fever,Dr. Gupta,Discharged
+31,Ravi Chakraborty,49,M,High Blood Pressure,Dr. Kumar,Admitted
+32,Esha Bhat,31,F,Fungal Infection,Dr. Nair,Admitted
+33,Niren Yadav,54,M,Kidney Disease,Dr. Reddy,Admitted
+34,Lalita Gupta,37,F,Arthritis,Dr. Singh,Discharged
+35,Pranav Misra,41,M,Depression,Dr. Patel,Admitted
