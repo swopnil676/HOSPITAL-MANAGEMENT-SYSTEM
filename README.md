@@ -1,79 +1,201 @@
 # 🏥 Hospital Management System
 
-A **Python-based Hospital Management System** for managing patient records through both a **GUI and CLI interface**. The project uses **Object-Oriented Programming (OOP)** and **CSV-based storage** to maintain patient data across sessions.
+A **Python-based Hospital Management System** developed to manage patient records efficiently through a simple command-line interface with basic GUI support. The project follows a **modular Object-Oriented Programming (OOP)** architecture and uses **CSV files** for persistent data storage.
 
-## ✨ Features
+---
 
-* 👤 Add, update, search, and delete patients
-* 🏥 Patient admission and discharge management
-* 🔎 Search and filter patient records
-* 📊 Real-time patient statistics
-* 🖥️ Tkinter-based GUI
-* 💻 Command-Line Interface
-* 💾 Persistent CSV data storage
-* 🔄 Shared data between GUI and CLI
-* 🧱 OOP-based `Patient` class
+# 📌 Overview
 
-## 🛠️ Technologies Used
+This project provides an efficient way to manage hospital patient records, including adding, viewing, updating, searching, and deleting patient information. The application separates data management, file handling, and user interaction into independent modules, making the system easy to maintain and extend.
+
+---
+
+# ✨ Features
+
+* 🏥 Register new patients
+* 📋 View all patient records
+* 🔍 Search patients
+* ✏️ Update patient information
+* 🗑️ Delete patient records
+* 🖥️ Simple GUI interface
+* 💾 CSV-based persistent storage
+* ⚠️ Input validation and exception handling
+* 📊 Menu-driven application
+
+---
+
+# 🛠️ Technologies Used
 
 * **Python**
-* **Tkinter**
-* **OOP**
-* **CSV & File Handling**
+* **Object-Oriented Programming (OOP)**
+* **CSV File Handling**
+* **Tkinter (GUI)**
+* **Command-Line Interface (CLI)**
+* **Modular Programming**
 
-## 📂 Project Structure
+---
+
+# 📁 Project Structure
 
 ```text
 Hospital-Management-System/
 │
-├── main.py
-├── patient.py
-├── file_handler.py
-├── operations.py
-├── gui.py
-├── patients.csv
+├── __pycache__/
+├── file_handler.py        # CSV file operations
+├── gui.py                 # Graphical User Interface
+├── main.py                # Application entry point
+├── operations.py          # Hospital management operations
+├── patient.py             # Patient model
+├── patients.csv           # Patient database
 └── README.md
 ```
 
-## 🚀 How to Run
+---
 
-### GUI Mode
+# 📖 Workflow
+
+```text
+Program Start
+      │
+      ▼
+main.py
+      │
+      ▼
+Load patients.csv
+      │
+      ▼
+Initialize GUI
+      │
+      ▼
+User Selects Operation
+      │
+      ├── Add Patient
+      ├── View Patients
+      ├── Search Patient
+      ├── Update Patient
+      ├── Delete Patient
+      └── Exit
+      │
+      ▼
+operations.py
+      │
+      ▼
+Update Patient Records
+      │
+      ▼
+file_handler.py
+      │
+      ▼
+Save Changes to patients.csv
+      │
+      ▼
+Refresh GUI / Return to Menu
+```
+
+---
+
+# 🚀 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd Hospital-Management-System
+```
+
+### 3. Run the Application
 
 ```bash
 python main.py
 ```
 
-### CLI Mode
+---
 
-```bash
-python main.py --cli
+# 🔄 Data Flow
+
+```text
+patients.csv
+      ▲
+      │
+      ▼
+file_handler.py
+      │
+      ▼
+operations.py
+      │
+      ▼
+patient.py
+      │
+      ▼
+gui.py
+      │
+      ▼
+main.py
 ```
 
-## 💾 Data Storage
+---
 
-Patient records are stored in `patients.csv`. Both GUI and CLI use the same file, so changes made in one mode are available in the other.
+# 📂 Module Responsibilities
 
-## 🎯 Key Highlights
+### 📄 main.py
 
-* Modular multi-file architecture
-* Object-oriented patient management
-* Persistent data storage
-* GUI + CLI support
-* Patient admission/discharge tracking
-* Search and filtering functionality
-* Clean separation of UI, operations, and data handling
+* Entry point of the application
+* Initializes the system
+* Launches the GUI
 
-## 🔮 Future Improvements
+### 📄 gui.py
 
-* Doctor and appointment management
-* Billing and medicine records
-* Database integration with MySQL/SQLite
-* User authentication
-* PDF report generation
+* Provides the graphical interface
+* Handles user interactions
+* Displays patient information
 
-## 👨‍💻 Author
+### 📄 patient.py
+
+* Defines the Patient class
+* Stores patient details
+
+### 📄 operations.py
+
+* Implements CRUD operations
+* Manages patient records
+* Connects the GUI with the data layer
+
+### 📄 file_handler.py
+
+* Reads patient data from CSV
+* Writes updated data to CSV
+* Handles persistent storage
+
+### 📄 patients.csv
+
+* Stores patient records
+* Automatically updated whenever data changes
+
+---
+
+# 🔮 Future Improvements
+
+* 👨‍⚕️ Doctor management
+* 📅 Appointment scheduling
+* 💊 Medicine & pharmacy management
+* 🧾 Billing and payment system
+* 🛏️ Bed and ward management
+* 🗄️ MySQL / SQLite database integration
+* 🌐 Web-based Hospital Management System
+
+---
+
+# 👨‍💻 Author
 
 **Swopnil Biswas**
 
-> Built as a Python project to practice **OOP, file handling, GUI development, and modular programming**.
+B.Tech – Electronics & Communication Engineering
 
+---
+
+⭐ **A practical Python project built to strengthen Object-Oriented Programming, CSV file handling, GUI development, modular programming, and real-world healthcare application development.**
