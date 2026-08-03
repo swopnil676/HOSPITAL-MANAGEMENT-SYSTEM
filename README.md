@@ -40,7 +40,6 @@ This project provides an efficient way to manage hospital patient records, inclu
 ```text
 Hospital-Management-System/
 │
-├── __pycache__/
 ├── file_handler.py        # CSV file operations
 ├── gui.py                 # Graphical User Interface
 ├── main.py                # Application entry point
